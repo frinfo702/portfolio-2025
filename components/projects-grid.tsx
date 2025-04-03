@@ -29,7 +29,7 @@ const projects: Project[] = [
     id: "project-1",
     title: "Aurelia - Job Board",
     description: "A job posting platform built with Go (Echo) and PostgreSQL",
-    image: "/placeholder.svg?height=160&width=320&text=Aurelia",
+    image: "/project/aurelia-home.png",
     technologies: ["Go", "Echo", "PostgreSQL", "RESTful API", "JWT"],
     longDescription:
       "Aurelia is a comprehensive job board platform that allows companies to post job openings and job seekers to find and apply for positions. Built with Go using the Echo framework and PostgreSQL for data storage, it features a robust backend API with authentication, job search, and application management.",
@@ -44,7 +44,7 @@ const projects: Project[] = [
     github: "https://github.com/frinfo702/Aurelia",
     year: 2023,
     images: [
-      "/placeholder.svg?height=400&width=600&text=Aurelia+API+Architecture",
+      "/project/aurelia-home.png",
       "/placeholder.svg?height=400&width=600&text=Database+Schema",
       "/placeholder.svg?height=400&width=600&text=API+Endpoints",
     ],
@@ -101,7 +101,7 @@ const projects: Project[] = [
     id: "project-4",
     title: "Claude Deep Research",
     description: "A research tool using Claude AI for deep information analysis",
-    image: "/placeholder.svg?height=160&width=320&text=Claude+Deep+Research",
+    image: "/project/claude-deepresearch-demo.png?height=160&width=320&text=Claude+Deep+Researc",
     technologies: ["Python", "Claude AI", "NLP", "Data Processing"],
     longDescription:
       "Claude Deep Research is a tool that leverages the Claude AI model for in-depth research and information analysis. Built with Python, it processes and analyzes large volumes of text data to extract insights and generate comprehensive research outputs.",
@@ -375,4 +375,3 @@ export function ProjectsGrid() {
     </>
   )
 }
-
