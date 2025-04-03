@@ -29,7 +29,7 @@ const projects: Project[] = [
     id: "project-1",
     title: "Aurelia - Job Board",
     description: "A job posting platform built with Go (Echo) and PostgreSQL",
-    image: "/placeholder.svg?height=160&width=320&text=Aurelia",
+    image: "/project/aurelia-home.png",
     technologies: ["Go", "Echo", "PostgreSQL", "RESTful API", "JWT"],
     longDescription:
       "Aurelia is a comprehensive job board platform that allows companies to post job openings and job seekers to find and apply for positions. Built with Go using the Echo framework and PostgreSQL for data storage, it features a robust backend API with authentication, job search, and application management.",
@@ -42,9 +42,9 @@ const projects: Project[] = [
       "Database optimization for performance",
     ],
     github: "https://github.com/frinfo702/Aurelia",
-    year: 2023,
+    year: 2024,
     images: [
-      "/placeholder.svg?height=400&width=600&text=Aurelia+API+Architecture",
+      "/project/aurelia-home.png",
       "/placeholder.svg?height=400&width=600&text=Database+Schema",
       "/placeholder.svg?height=400&width=600&text=API+Endpoints",
     ],
@@ -66,7 +66,7 @@ const projects: Project[] = [
       "Docker containerization for easy deployment",
     ],
     github: "https://github.com/frinfo702/BlogAPIGo",
-    year: 2022,
+    year: 2024,
     images: [
       "/placeholder.svg?height=400&width=600&text=API+Structure",
       "/placeholder.svg?height=400&width=600&text=Database+Design",
@@ -90,7 +90,7 @@ const projects: Project[] = [
       "Privacy-focused design",
     ],
     github: "https://github.com/frinfo702/SaBA",
-    year: 2023,
+    year: 2025,
     images: [
       "/placeholder.svg?height=400&width=600&text=Browser+Interface",
       "/placeholder.svg?height=400&width=600&text=Architecture+Diagram",
@@ -101,7 +101,7 @@ const projects: Project[] = [
     id: "project-4",
     title: "Claude Deep Research",
     description: "A research tool using Claude AI for deep information analysis",
-    image: "/placeholder.svg?height=160&width=320&text=Claude+Deep+Research",
+    image: "/project/claude-deepresearch-demo.png?height=160&width=320&text=Claude+Deep+Researc",
     technologies: ["Python", "Claude AI", "NLP", "Data Processing"],
     longDescription:
       "Claude Deep Research is a tool that leverages the Claude AI model for in-depth research and information analysis. Built with Python, it processes and analyzes large volumes of text data to extract insights and generate comprehensive research outputs.",
@@ -114,7 +114,7 @@ const projects: Project[] = [
       "Export in multiple formats",
     ],
     github: "https://github.com/frinfo702/claude-deepresearch",
-    year: 2023,
+    year: 2025,
     images: [
       "/placeholder.svg?height=400&width=600&text=Research+Interface",
       "/placeholder.svg?height=400&width=600&text=Analysis+Pipeline",
@@ -137,7 +137,7 @@ const projects: Project[] = [
       "Error handling and reporting",
       "Support for C language features",
     ],
-    year: 2022,
+    year: 2025,
     images: [
       "/placeholder.svg?height=400&width=600&text=Compiler+Architecture",
       "/placeholder.svg?height=400&width=600&text=Parsing+Process",
@@ -160,7 +160,7 @@ const projects: Project[] = [
       "GitHub integration for live stats",
       "Blog section with markdown support",
     ],
-    year: 2023,
+    year: 2025,
     images: [
       "/placeholder.svg?height=400&width=600&text=Homepage",
       "/placeholder.svg?height=400&width=600&text=Projects+Gallery",
@@ -375,4 +375,3 @@ export function ProjectsGrid() {
     </>
   )
 }
-

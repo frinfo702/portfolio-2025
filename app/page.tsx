@@ -83,7 +83,10 @@ export default function Portfolio() {
               <div className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden mb-4 border-2 border-[#ff5722] dark:border-[#ff5722]">
                 <Image src="/profile.png" alt="Profile" width={128} height={128} className="object-cover" />
               </div>
-              <h2 className="text-lg font-mono font-bold text-zinc-900 dark:text-zinc-50">FRINFO702</h2>
+              <h2 className="text-lg font-mono font-bold text-zinc-900 dark:text-zinc-50 text-center">
+                  KENICIRO
+                  (FRINFO702)
+                </h2>
               <p className="text-sm text-zinc-500 dark:text-zinc-400 font-mono">BACKEND DEVELOPER</p>
             </div>
 
@@ -153,11 +156,11 @@ export default function Portfolio() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
                 <Card className="p-4 bg-zinc-50 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700">
                   <h4 className="text-xs font-mono font-bold mb-2 text-zinc-900 dark:text-zinc-50">LOCATION</h4>
-                  <p className="text-sm text-zinc-700 dark:text-zinc-300 font-mono">Tokyo, Japan</p>
+                  <p className="text-sm text-zinc-700 dark:text-zinc-300 font-mono">Osaka, Japan</p>
                 </Card>
                 <Card className="p-4 bg-zinc-50 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700">
                   <h4 className="text-xs font-mono font-bold mb-2 text-zinc-900 dark:text-zinc-50">EMAIL</h4>
-                  <p className="text-sm text-zinc-700 dark:text-zinc-300 font-mono">contact@example.com</p>
+                  <p className="text-sm text-zinc-700 dark:text-zinc-300 font-mono">kenichiro3114@gmail.com</p>
                 </Card>
               </div>
             </div>
@@ -212,9 +215,9 @@ export default function Portfolio() {
                 <Card className="p-4 border border-zinc-200 dark:border-zinc-700 hover:border-[#ff5722] dark:hover:border-[#ff5722] transition-colors">
                   <div className="flex justify-between items-start mb-2">
                     <h4 className="text-sm font-mono font-bold text-zinc-900 dark:text-zinc-50">
-                      UNIVERSITY OF TECHNOLOGY
+                      RITSUMEIKAN UNIVERSITY 
                     </h4>
-                    <span className="text-xs text-zinc-500 dark:text-zinc-400 font-mono">2018-2022</span>
+                    <span className="text-xs text-zinc-500 dark:text-zinc-400 font-mono">2023-2027</span>
                   </div>
                   <p className="text-xs text-zinc-700 dark:text-zinc-300 font-mono mb-1">
                     Bachelor of Science in Computer Science
@@ -229,7 +232,7 @@ export default function Portfolio() {
                     <h4 className="text-sm font-mono font-bold text-zinc-900 dark:text-zinc-50">
                       ONLINE CERTIFICATIONS
                     </h4>
-                    <span className="text-xs text-zinc-500 dark:text-zinc-400 font-mono">2022-Present</span>
+                    <span className="text-xs text-zinc-500 dark:text-zinc-400 font-mono">2023-Present</span>
                   </div>
                   <p className="text-xs text-zinc-700 dark:text-zinc-300 font-mono mb-1">
                     Various technical certifications
@@ -252,4 +255,3 @@ export default function Portfolio() {
     </div>
   )
 }
-

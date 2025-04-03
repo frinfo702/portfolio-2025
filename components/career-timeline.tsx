@@ -38,170 +38,42 @@ type Experience = {
 // サンプルの職歴データ
 const experiences: Experience[] = [
   {
-    id: "exp-1",
-    company: "Tech Innovations Inc.",
-    position: "Senior Frontend Developer",
-    location: "Tokyo, Japan",
-    startDate: "2022-03",
-    endDate: null, // null は現在も継続中を意味する
+    id: "finatext-intern",
+    company: "Finatext Holdings",
+    position: "Backend Engineer (Intern)",
+    location: "Tokyo, Japan (Remote)",
+    startDate: "2025-01",
+    endDate: null,
     description:
-      "Leading the frontend development team in building modern web applications using React and Next.js. Responsible for architecture decisions and implementing best practices.",
+      "Responsible for developing Public APIs and Admin APIs for analysts within the NISA team for the Smartplus product.",
     achievements: [
-      "Reduced page load time by 40% through code optimization and lazy loading strategies",
-      "Implemented a component library used across 5 different projects",
-      "Mentored 3 junior developers who are now mid-level contributors",
-      "Led the migration from Create React App to Next.js, improving SEO and performance",
+      "Gained practical backend development skills through API design and implementation.",
+      "Learned the importance of code reviews and documentation in team development.",
+      "Gained exposure to infrastructure construction and operation using AWS and MySQL.",
     ],
-    technologies: ["React", "Next.js", "TypeScript", "TailwindCSS", "GraphQL"],
-    logo: "/placeholder.svg?height=48&width=48",
-    type: "work",
-    images: [
-      "/placeholder.svg?height=400&width=600&text=Team+Meeting",
-      "/placeholder.svg?height=400&width=600&text=Product+Demo",
-      "/placeholder.svg?height=400&width=600&text=Code+Review+Session",
-    ],
-  },
-  {
-    id: "exp-2",
-    company: "Digital Solutions Co.",
-    position: "Frontend Developer",
-    location: "Osaka, Japan",
-    startDate: "2020-06",
-    endDate: "2022-02",
-    description:
-      "Worked on multiple client projects developing responsive web applications. Collaborated with designers and backend developers to implement features and ensure consistent user experience.",
-    achievements: [
-      "Developed a dashboard application that increased client productivity by 25%",
-      "Implemented automated testing that caught 30% more bugs before production",
-      "Contributed to the company's internal design system",
-      "Optimized rendering performance in a data-heavy application",
-    ],
-    technologies: ["React", "JavaScript", "SCSS", "Redux", "Jest"],
-    logo: "/placeholder.svg?height=48&width=48",
-    type: "work",
-    images: [
-      "/placeholder.svg?height=400&width=600&text=Dashboard+Project",
-      "/placeholder.svg?height=400&width=600&text=Client+Meeting",
-    ],
-  },
-  {
-    id: "exp-3",
-    company: "Creative Web Agency",
-    position: "Junior Web Developer",
-    location: "Kyoto, Japan",
-    startDate: "2018-09",
-    endDate: "2020-05",
-    description:
-      "Started as an intern and grew into a full-time role. Worked on various client websites and e-commerce platforms, focusing on frontend development and responsive design.",
-    achievements: [
-      "Developed 15+ client websites from design to deployment",
-      "Implemented responsive designs that improved mobile conversion rates by 20%",
-      "Created custom WordPress themes and plugins for clients",
-      "Assisted in transitioning the team from jQuery to modern JavaScript frameworks",
-    ],
-    technologies: ["HTML", "CSS", "JavaScript", "jQuery", "WordPress", "PHP"],
-    logo: "/placeholder.svg?height=48&width=48",
+    technologies: ["Go", "AWS", "MySQL", "API Development"],
+    logo: "/finatext-logo.png",
     type: "internship",
-    images: [
-      "/placeholder.svg?height=400&width=600&text=Office+Space",
-      "/placeholder.svg?height=400&width=600&text=Team+Photo",
-      "/placeholder.svg?height=400&width=600&text=Client+Website+Screenshot",
-    ],
+    images: [],
   },
   {
-    id: "exp-4",
-    company: "University of Technology",
-    position: "Computer Science Student",
-    location: "Tokyo, Japan",
-    startDate: "2014-04",
-    endDate: "2018-03",
+    id: "rione-project",
+    company: "Ri-one (University Circle)",
+    position: "Server Developer",
+    location: "University",
+    startDate: "2024-04",
+    endDate: "2024-06",
     description:
-      "Studied Computer Science with a focus on web technologies and software development. Participated in various coding competitions and hackathons.",
+      "Developed a Go server for a university circle project that receives HTTP requests over the network and sends control information to a robot.",
     achievements: [
-      "Graduated with honors (GPA 3.8/4.0)",
-      "Won 2nd place in the annual coding competition",
-      "Completed a thesis on 'Optimizing Frontend Performance in Single Page Applications'",
-      "Served as a teaching assistant for Introduction to Web Development",
+      "Experienced basic implementation of an HTTP server using Go.",
+      "Learned about network communication and data transmission mechanisms.",
+      "Experienced a simple team development process through the project.",
     ],
-    technologies: ["Java", "Python", "C++", "Data Structures", "Algorithms", "Web Development"],
-    logo: "/placeholder.svg?height=48&width=48",
-    type: "education",
-    images: [
-      "/placeholder.svg?height=400&width=600&text=Graduation+Ceremony",
-      "/placeholder.svg?height=400&width=600&text=Campus+View",
-      "/placeholder.svg?height=400&width=600&text=Hackathon+Event",
-      "/placeholder.svg?height=400&width=600&text=Computer+Lab",
-    ],
-  },
-  {
-    id: "exp-5",
-    company: "Open Source Community",
-    position: "Contributor",
-    location: "Remote",
-    startDate: "2019-01",
-    endDate: "2021-12",
-    description:
-      "Contributed to various open source projects in my free time, focusing on frontend libraries and developer tools.",
-    achievements: [
-      "Created and maintained a popular React component library with 500+ stars on GitHub",
-      "Fixed critical bugs in several widely-used open source projects",
-      "Improved documentation and examples for beginners",
-      "Participated in code reviews and mentored new contributors",
-    ],
-    technologies: ["React", "TypeScript", "JavaScript", "Git", "GitHub Actions"],
-    logo: "/placeholder.svg?height=48&width=48",
-    type: "volunteer",
-    images: [
-      "/placeholder.svg?height=400&width=600&text=GitHub+Contributions",
-      "/placeholder.svg?height=400&width=600&text=Component+Library+Demo",
-    ],
-  },
-  {
-    id: "exp-6",
-    company: "Self-employed",
-    position: "Freelance Web Developer",
-    location: "Remote",
-    startDate: "2017-06",
-    endDate: "2018-08",
-    description: "Worked as a freelance web developer for various clients, building websites and web applications.",
-    achievements: [
-      "Completed 20+ projects for clients across different industries",
-      "Maintained long-term relationships with 5 recurring clients",
-      "Developed a custom CMS for a small business that reduced their content update time by 70%",
-      "Implemented SEO best practices that improved client search rankings",
-    ],
-    technologies: ["HTML", "CSS", "JavaScript", "WordPress", "PHP", "SEO"],
-    logo: "/placeholder.svg?height=48&width=48",
-    type: "freelance",
-    images: [
-      "/placeholder.svg?height=400&width=600&text=Client+Project+1",
-      "/placeholder.svg?height=400&width=600&text=Client+Project+2",
-      "/placeholder.svg?height=400&width=600&text=Home+Office+Setup",
-    ],
-  },
-  {
-    id: "exp-7",
-    company: "Personal Project",
-    position: "Lead Developer",
-    location: "Remote",
-    startDate: "2021-03",
-    endDate: "2021-09",
-    description: "Developed a personal project, a productivity app for developers to track their time and tasks.",
-    achievements: [
-      "Built and launched a full-stack application from concept to deployment",
-      "Acquired 500+ users in the first month without marketing budget",
-      "Implemented user feedback system that guided feature development",
-      "Optimized performance for mobile devices",
-    ],
-    technologies: ["React", "Node.js", "MongoDB", "Express", "PWA", "Firebase"],
-    logo: "/placeholder.svg?height=48&width=48",
+    technologies: ["Go", "HTTP", "Networking"],
+    logo: "/placeholder.svg",
     type: "project",
-    images: [
-      "/placeholder.svg?height=400&width=600&text=App+Screenshot+1",
-      "/placeholder.svg?height=400&width=600&text=App+Screenshot+2",
-      "/placeholder.svg?height=400&width=600&text=User+Dashboard",
-      "/placeholder.svg?height=400&width=600&text=Mobile+View",
-    ],
+    images: [],
   },
 ]
 
@@ -378,7 +250,7 @@ export function CareerTimeline() {
                 variant="outline"
                 className="font-mono text-xs bg-[#ff5722] text-white hover:bg-[#ff5722]/90 dark:bg-[#ff5722] dark:text-white"
               >
-                {formatDate(selectedExperience?.startDate)} - {formatDate(selectedExperience?.endDate)}
+                {formatDate(selectedExperience?.startDate || null)} - {formatDate(selectedExperience?.endDate || null)}
               </Badge>
             </DialogDescription>
           </DialogHeader>
@@ -494,4 +366,3 @@ export function CareerTimeline() {
     </>
   )
 }
-
