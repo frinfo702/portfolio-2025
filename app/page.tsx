@@ -83,7 +83,10 @@ export default function Portfolio() {
               <div className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden mb-4 border-2 border-[#ff5722] dark:border-[#ff5722]">
                 <Image src="/profile.png" alt="Profile" width={128} height={128} className="object-cover" />
               </div>
-              <h2 className="text-lg font-mono font-bold text-zinc-900 dark:text-zinc-50">FRINFO702</h2>
+              <h2 className="text-lg font-mono font-bold text-zinc-900 dark:text-zinc-50 text-center">
+                  KENICIRO
+                  (FRINFO702)
+                </h2>
               <p className="text-sm text-zinc-500 dark:text-zinc-400 font-mono">BACKEND DEVELOPER</p>
             </div>
 
