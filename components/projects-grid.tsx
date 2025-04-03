@@ -42,7 +42,7 @@ const projects: Project[] = [
       "Database optimization for performance",
     ],
     github: "https://github.com/frinfo702/Aurelia",
-    year: 2023,
+    year: 2024,
     images: [
       "/project/aurelia-home.png",
       "/placeholder.svg?height=400&width=600&text=Database+Schema",
@@ -66,7 +66,7 @@ const projects: Project[] = [
       "Docker containerization for easy deployment",
     ],
     github: "https://github.com/frinfo702/BlogAPIGo",
-    year: 2022,
+    year: 2024,
     images: [
       "/placeholder.svg?height=400&width=600&text=API+Structure",
       "/placeholder.svg?height=400&width=600&text=Database+Design",
@@ -90,7 +90,7 @@ const projects: Project[] = [
       "Privacy-focused design",
     ],
     github: "https://github.com/frinfo702/SaBA",
-    year: 2023,
+    year: 2025,
     images: [
       "/placeholder.svg?height=400&width=600&text=Browser+Interface",
       "/placeholder.svg?height=400&width=600&text=Architecture+Diagram",
@@ -114,7 +114,7 @@ const projects: Project[] = [
       "Export in multiple formats",
     ],
     github: "https://github.com/frinfo702/claude-deepresearch",
-    year: 2023,
+    year: 2025,
     images: [
       "/placeholder.svg?height=400&width=600&text=Research+Interface",
       "/placeholder.svg?height=400&width=600&text=Analysis+Pipeline",
@@ -137,7 +137,7 @@ const projects: Project[] = [
       "Error handling and reporting",
       "Support for C language features",
     ],
-    year: 2022,
+    year: 2025,
     images: [
       "/placeholder.svg?height=400&width=600&text=Compiler+Architecture",
       "/placeholder.svg?height=400&width=600&text=Parsing+Process",
@@ -160,7 +160,7 @@ const projects: Project[] = [
       "GitHub integration for live stats",
       "Blog section with markdown support",
     ],
-    year: 2023,
+    year: 2025,
     images: [
       "/placeholder.svg?height=400&width=600&text=Homepage",
       "/placeholder.svg?height=400&width=600&text=Projects+Gallery",
